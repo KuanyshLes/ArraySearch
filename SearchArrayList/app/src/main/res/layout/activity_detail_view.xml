@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity" >
+
+
+
+    <EditText
+        android:id="@+id/inputSearchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:background="@drawable/rectangle"
+        android:enabled="true"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:textColor="#1b1a1a"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Название продукта"
+        android:textColor="#FFA9A3A5"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/inputSearchEditText"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:text="Закупочная цена"
+        android:textColor="#FFA9A3A5"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="18dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/inputSearchEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/rectangle"
+        android:ellipsize="start"
+        android:text="90tg"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inputSearchEditText1"
+        android:gravity="center"
+        android:text="Розничная цена"
+        android:textColor="#FFA9A3A5"
+        android:textSize="17dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="0dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="18dp"
+        android:id="@+id/textView4" />
+
+
+
+    <EditText
+        android:id="@+id/inputSearchEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:background="@drawable/rectangle"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:text="90tg"
+        android:textAlignment="center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputSearchEditText3"
+        android:gravity="center"
+        android:text="Уведомления об оканчании продукта"
+        android:textColor="#a9a3a5"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+
+    <EditText
+        android:id="@+id/inputSearchEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:background="@drawable/rectangle"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:text="23"
+        android:textAlignment="center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/inputSearchEditText2"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:gravity="center"
+        android:text="Количества продукта"
+        android:textColor="#a9a3a5"
+        android:textSize="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <EditText
+        android:id="@+id/inputSearchEditText4"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:background="@drawable/rectangle"
+        android:ellipsize="start"
+        android:text="10"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:inputType="text" />
+
+
+
+
+</RelativeLayout>
